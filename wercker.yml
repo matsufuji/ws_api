@@ -15,5 +15,5 @@ build:
     - internal/docker-push:
       username: $DOCKER_USERNAME
       password: $DOCKER_PASSWORD
-      repository: wercker/api
+      repository: ndimatsufuji/wercker-api
       cmd: "python /pipeline/source/app.py"
